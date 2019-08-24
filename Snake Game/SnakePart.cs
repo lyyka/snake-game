@@ -34,8 +34,8 @@ namespace Snake_Game
             Position_X = pos_x;
             Position_Y = pos_y;
 
-            Width = 25;
-            Height = 25;
+            Width = 30;
+            Height = 30;
         }
 
         public void Draw(Graphics g, SolidBrush brush)
@@ -58,8 +58,8 @@ namespace Snake_Game
             int start_y = Position_Y - MovementDirection[1];
 
             SnakePart new_part = new SnakePart(start_x, start_y);
-            new_part.Width = 25;
-            new_part.Height = 25;
+            new_part.Width = 30;
+            new_part.Height = 30;
 
             new_part.LastDirection = MovementDirection;
             new_part.MovementDirection = MovementDirection;

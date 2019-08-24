@@ -19,8 +19,11 @@ namespace Snake_Game
         }
         public void Draw(Graphics g, SolidBrush brush)
         {
-            Rectangle food = new Rectangle((Position_X - 1) * 25, (Position_Y - 1) * 25, 25, 25);
-            g.FillRectangle(brush, food);
+            //Rectangle food = new Rectangle((Position_X - 1) * 25, (Position_Y - 1) * 25, 25, 25);
+
+            g.DrawImage(Image.FromFile(@"Images/apple.png"), new Point((Position_X - 1) * 30, (Position_Y - 1) * 30));
+
+            //g.FillRectangle(brush, food);
         }
     }
 }

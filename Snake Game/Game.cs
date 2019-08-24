@@ -39,8 +39,8 @@ namespace Snake_Game
         public void Start()
         {
             // Define width and height of the snake
-            int snake_width = 25;
-            int snake_height = 25;
+            int snake_width = 30;
+            int snake_height = 30;
 
             // Calculate matrix size based on form width and height
             int max_x = Form.gameBox.Size.Width / snake_width;
@@ -55,6 +55,31 @@ namespace Snake_Game
             TimerDecrease = Form.moving_timer.Interval / 10;
 
             SpawnFood();
+        }
+
+        public void CheckTable(Graphics G)
+        {
+            int width = 30;
+            int height = 30;
+
+            int rows = Game_Matrix.GetLength(0) - 1;
+            int cols = Game_Matrix.GetLength(1) - 1;
+
+            for(int i = 0; i <= rows; i++)
+            {
+                for(int y = 0; y <= cols; y++)
+                {
+                    Rectangle check = new Rectangle(i* width, y * height, width, height);
+                    Color brush_color = Color.White;
+                    if((y % 2 == 0 && i % 2 == 0) || (y % 2 == 1 && i % 2 == 1))
+                    {
+                        brush_color = Color.LightGray;
+                    }
+                    SolidBrush brush = new SolidBrush(brush_color);
+                    G.FillRectangle(brush, check);
+                    brush.Dispose();
+                }
+            }
         }
 
         public void SpawnFood()

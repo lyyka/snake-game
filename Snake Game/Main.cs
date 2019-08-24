@@ -42,13 +42,13 @@ namespace Snake_Game
             {
                 //Graphics g = e.Graphics;
                 // If snake exists
+                Game.CheckTable(e.Graphics);
                 Game.RepaintSnakeParts(e.Graphics);
                 if (Game.Current_Food != null)
                 {
                     SolidBrush brush = new SolidBrush(Color.Red);
                     Game.Current_Food.Draw(e.Graphics, brush);
                     brush.Dispose();
-                    brush = null;
                 }
                 //g.Dispose();
                 //g = null;

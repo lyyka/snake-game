@@ -45,7 +45,7 @@
             this.gameBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.gameBox.Location = new System.Drawing.Point(1, 57);
             this.gameBox.Name = "gameBox";
-            this.gameBox.Size = new System.Drawing.Size(739, 645);
+            this.gameBox.Size = new System.Drawing.Size(645, 600);
             this.gameBox.TabIndex = 0;
             this.gameBox.TabStop = false;
             this.gameBox.Paint += new System.Windows.Forms.PaintEventHandler(this.GameBox_Paint);
@@ -64,7 +64,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(732, 703);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(647, 658);
             this.Controls.Add(this.points_lb);
             this.Controls.Add(this.gameBox);
             this.Name = "Main";
