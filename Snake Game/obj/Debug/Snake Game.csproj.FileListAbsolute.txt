@@ -10,3 +10,15 @@ C:\Users\LEGION\Documents\C# projects\Snake Game\Snake Game\obj\Debug\Snake Game
 C:\Users\LEGION\Documents\C# projects\Snake Game\Snake Game\obj\Debug\Snake Game.pdb
 C:\Users\LEGION\Documents\C# projects\Snake Game\Snake Game\obj\Debug\Interop.WMPLib.dll
 C:\Users\LEGION\Documents\C# projects\Snake Game\Snake Game\obj\Debug\Snake Game.csproj.ResolveComReference.cache
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\bin\Debug\Snake Game.exe.config
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\bin\Debug\Snake Game.exe
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\bin\Debug\Snake Game.pdb
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Snake Game.csprojAssemblyReference.cache
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Interop.WMPLib.dll
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Snake Game.csproj.ResolveComReference.cache
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Snake_Game.Main.resources
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Snake_Game.Properties.Resources.resources
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Snake Game.csproj.GenerateResource.cache
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Snake Game.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Snake Game.exe
+C:\Users\LEGION\Documents\git\snake-game\Snake Game\obj\Debug\Snake Game.pdb

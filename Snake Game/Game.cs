@@ -190,7 +190,7 @@ namespace Snake_Game
             direction_increments.Add(Keys.Right, new int[2] { 1, 0 });
 
             // Check if key and snake exist and if snake can move
-            if (direction_increments[e.KeyCode] != null && Snake != null)
+            if (direction_increments.ContainsKey(e.KeyCode) && Snake != null)
             {
                 // set last direction of head based on current movement
                 Snake.Head.LastDirection = Snake.Head.MovementDirection;
